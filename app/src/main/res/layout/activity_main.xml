@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.adrian.expandableedittext.ExpandableEditText
+        android:id="@+id/etExpandable"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:eet_center_hint="提示数据"
+        app:eet_center_textSize="12sp"
+        app:eet_pre_text="前缀"
+        app:eet_pre_textSize="10sp"
+        app:eet_suf_text="后缀"
+        app:eet_suf_textStyle="normal"
+        app:eet_suf_textSize="15sp"
+        app:eet_suf_textColor="@color/teal_200"
+        app:eet_center_textStyle="bold"
+        app:eet_center_textColor="@color/colorPrimary"
+        app:eet_pre_to_center_spacing="10dp"
+        app:eet_suf_to_center_spacing="10dp"
+        app:eet_isCenterEditable="true"
+        app:eet_center_inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
