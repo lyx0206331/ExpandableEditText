@@ -1,5 +1,28 @@
+## 带前后缀可编辑文本输入框  [![](https://jitpack.io/v/lyx0206331/ExpandableEditText.svg)](https://jitpack.io/#lyx0206331/ExpandableEditText)
+
+所有文本均可修改大小颜色及样式，中间可输入文本可选择输入类型。
 
 [![osCrjK.png](https://s4.ax1x.com/2021/12/06/osCrjK.png)](https://imgtu.com/i/osCrjK)
+
+### 使用方法:
+
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.lyx0206331:ExpandableEditText:Tag'
+	}
+
+
 
 ### 属性说明:
 
