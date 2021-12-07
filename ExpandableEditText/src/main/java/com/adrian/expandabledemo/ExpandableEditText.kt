@@ -162,18 +162,21 @@ class ExpandableEditText @JvmOverloads constructor(context: Context, @Nullable a
             field = value
             tvPrefix.text = field
         }
+        get() = (tvPrefix.text?:"").toString()
 
     var sufText: String = ""
         set(value) {
             field = value
             tvSuffix.text = field
         }
+        get() = (tvSuffix.text?:"").toString()
 
     var centerText: String = ""
         set(value) {
             field = value
             etCenter.text = field.toEditable()
         }
+        get() = (etCenter.text?:"").toString()
 
     @InputableType
     var centerInputType = INPUT_TYPE_TEXT
@@ -187,6 +190,7 @@ class ExpandableEditText @JvmOverloads constructor(context: Context, @Nullable a
             field = value
             etCenter.hint = field
         }
+        get() = (etCenter.hint?:"").toString()
 
     @ColorInt
     var centerHintColor: Int = Color.LTGRAY
